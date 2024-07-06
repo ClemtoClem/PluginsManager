@@ -1,0 +1,181 @@
+[ INFO  ] 24-07-06 15:43:16 - src/PluginsManager.cpp:32 - 2/2 plugins loaded and sorted by priority.
+[ INFO  ] 24-07-06 15:43:16 - src/Plugin1.cpp:19 - Initializing 'Plugin1'
+[ INFO  ] 24-07-06 15:43:16 - src/Plugin2.cpp:19 - Initializing 'Plugin2'
+[ INFO  ] 24-07-06 15:43:16 - src/PluginsManager.cpp:93 - 2/2 plugins initialized.
+[ INFO  ] 24-07-06 15:43:16 - src/Plugin1.cpp:51 - Shutting down 'Plugin1'
+[ INFO  ] 24-07-06 15:43:16 - src/Plugin2.cpp:25 - Shutting down 'Plugin2'
+[ INFO  ] 24-07-06 15:43:16 - src/PluginsManager.cpp:108 - 2/2 plugins shut down.
+[ INFO  ] 24-07-06 15:43:16 - src/Plugin1.cpp:15 - Unloading 'Plugin1'
+[ INFO  ] 24-07-06 15:43:16 - src/Plugin2.cpp:15 - Unloading 'Plugin2'
+[ INFO  ] 24-07-06 15:43:16 - src/PluginsManager.cpp:133 - 2/2 plugins unloaded.
+============================================================
+[ INFO  ] 24-07-06 16:12:41 - src/PluginsManager.cpp:32 - 0/0 plugins loaded and sorted by priority.
+============================================================
+[ INFO  ] 24-07-06 16:27:18 - src/PluginsManager.cpp:32 - 2/2 plugins loaded and sorted by priority.
+[ INFO  ] 24-07-06 16:27:18 - src/Plugin1.cpp:19 - Initializing 'Plugin1'
+[ INFO  ] 24-07-06 16:27:18 - src/Plugin2.cpp:19 - Initializing 'Plugin2'
+[ INFO  ] 24-07-06 16:27:18 - src/PluginsManager.cpp:93 - 2/2 plugins initialized.
+[ INFO  ] 24-07-06 16:27:18 - src/Plugin1.cpp:51 - Shutting down 'Plugin1'
+[ INFO  ] 24-07-06 16:27:18 - src/Plugin2.cpp:25 - Shutting down 'Plugin2'
+[ INFO  ] 24-07-06 16:27:18 - src/PluginsManager.cpp:108 - 2/2 plugins shut down.
+[ INFO  ] 24-07-06 16:27:18 - src/Plugin1.cpp:15 - Unloading 'Plugin1'
+[ INFO  ] 24-07-06 16:27:18 - src/Plugin2.cpp:15 - Unloading 'Plugin2'
+[ INFO  ] 24-07-06 16:27:18 - src/PluginsManager.cpp:133 - 2/2 plugins unloaded.
+============================================================
+[ INFO  ] 24-07-06 17:16:50 - src/PluginsManager.cpp:32 - 2/2 plugins loaded and sorted by priority.
+[ INFO  ] 24-07-06 17:16:50 - src/Plugin2.cpp:20 - Initializing 'Plugin2'
+[ INFO  ] 24-07-06 17:16:50 - src/Plugin1.cpp:20 - Initializing 'Plugin1'
+[ INFO  ] 24-07-06 17:16:50 - src/PluginsManager.cpp:93 - 2/2 plugins initialized.
+[ INFO  ] 24-07-06 17:16:50 - src/Plugin2.cpp:26 - Shutting down 'Plugin2'
+[ INFO  ] 24-07-06 17:16:50 - src/Plugin1.cpp:52 - Shutting down 'Plugin1'
+[ INFO  ] 24-07-06 17:16:50 - src/PluginsManager.cpp:108 - 2/2 plugins shut down.
+[ INFO  ] 24-07-06 17:16:50 - src/Plugin2.cpp:16 - Unloading 'Plugin2'
+[ INFO  ] 24-07-06 17:16:50 - src/Plugin1.cpp:16 - Unloading 'Plugin1'
+[ INFO  ] 24-07-06 17:16:50 - src/PluginsManager.cpp:133 - 2/2 plugins unloaded.
+============================================================
+[ INFO  ] 24-07-06 17:19:16 - src/PluginsManager.cpp:32 - 2/2 plugins loaded and sorted by priority.
+[ INFO  ] 24-07-06 17:19:16 - src/Plugin1.cpp:20 - Initializing 'Plugin1'
+[ INFO  ] 24-07-06 17:19:16 - src/Plugin2.cpp:20 - Initializing 'Plugin2'
+[ INFO  ] 24-07-06 17:19:16 - src/PluginsManager.cpp:93 - 2/2 plugins initialized.
+[ INFO  ] 24-07-06 17:19:16 - src/Main.cpp:27 - Plugin Name: Plugin1
+Author: ClemToClem
+Version: 1.0.0
+Main Version: 1.0.0
+Priority: 0
+[ INFO  ] 24-07-06 17:19:16 - src/Main.cpp:27 - Plugin Name: Plugin2
+Author: ClemToClem
+Version: 1.0.0
+Main Version: 1.0.0
+Priority: 1
+[ INFO  ] 24-07-06 17:19:16 - src/Plugin1.cpp:52 - Shutting down 'Plugin1'
+[ INFO  ] 24-07-06 17:19:16 - src/Plugin2.cpp:26 - Shutting down 'Plugin2'
+[ INFO  ] 24-07-06 17:19:16 - src/PluginsManager.cpp:108 - 2/2 plugins shut down.
+[ INFO  ] 24-07-06 17:19:16 - src/Plugin1.cpp:16 - Unloading 'Plugin1'
+[ INFO  ] 24-07-06 17:19:16 - src/Plugin2.cpp:16 - Unloading 'Plugin2'
+[ INFO  ] 24-07-06 17:19:16 - src/PluginsManager.cpp:133 - 2/2 plugins unloaded.
+============================================================
+[ INFO  ] 24-07-06 17:19:51 - src/PluginsManager.cpp:32 - 2/2 plugins loaded and sorted by priority.
+[ INFO  ] 24-07-06 17:19:51 - src/Plugin1.cpp:20 - Initializing 'Plugin1'
+[ INFO  ] 24-07-06 17:19:51 - src/Plugin2.cpp:20 - Initializing 'Plugin2'
+[ INFO  ] 24-07-06 17:19:51 - src/PluginsManager.cpp:93 - 2/2 plugins initialized.
+[ INFO  ] 24-07-06 17:19:51 - src/Main.cpp:27 - Plugin Name: Plugin1, Author: ClemToClem, Version: 1.0.0, Main Version: 1.0.0, Priority: 0
+[ INFO  ] 24-07-06 17:19:51 - src/Main.cpp:27 - Plugin Name: Plugin2, Author: ClemToClem, Version: 1.0.0, Main Version: 1.0.0, Priority: 1
+[ INFO  ] 24-07-06 17:19:51 - src/Plugin1.cpp:52 - Shutting down 'Plugin1'
+[ INFO  ] 24-07-06 17:19:51 - src/Plugin2.cpp:26 - Shutting down 'Plugin2'
+[ INFO  ] 24-07-06 17:19:51 - src/PluginsManager.cpp:108 - 2/2 plugins shut down.
+[ INFO  ] 24-07-06 17:19:51 - src/Plugin1.cpp:16 - Unloading 'Plugin1'
+[ INFO  ] 24-07-06 17:19:51 - src/Plugin2.cpp:16 - Unloading 'Plugin2'
+[ INFO  ] 24-07-06 17:19:51 - src/PluginsManager.cpp:133 - 2/2 plugins unloaded.
+============================================================
+[ INFO  ] 24-07-06 17:20:21 - src/PluginsManager.cpp:32 - 2/2 plugins loaded and sorted by priority.
+[ INFO  ] 24-07-06 17:20:21 - src/Plugin1.cpp:20 - Initializing 'Plugin1'
+[ INFO  ] 24-07-06 17:20:21 - src/Plugin2.cpp:20 - Initializing 'Plugin2'
+[ INFO  ] 24-07-06 17:20:21 - src/PluginsManager.cpp:93 - 2/2 plugins initialized.
+[ INFO  ] 24-07-06 17:20:21 - src/Main.cpp:27 - Plugin Name: 'Plugin1', Author: ClemToClem, Version: 1.0.0, Main Version: 1.0.0, Priority: 0
+[ INFO  ] 24-07-06 17:20:21 - src/Main.cpp:27 - Plugin Name: 'Plugin2', Author: ClemToClem, Version: 1.0.0, Main Version: 1.0.0, Priority: 1
+[ INFO  ] 24-07-06 17:20:21 - src/Plugin1.cpp:52 - Shutting down 'Plugin1'
+[ INFO  ] 24-07-06 17:20:21 - src/Plugin2.cpp:26 - Shutting down 'Plugin2'
+[ INFO  ] 24-07-06 17:20:21 - src/PluginsManager.cpp:108 - 2/2 plugins shut down.
+[ INFO  ] 24-07-06 17:20:21 - src/Plugin1.cpp:16 - Unloading 'Plugin1'
+[ INFO  ] 24-07-06 17:20:21 - src/Plugin2.cpp:16 - Unloading 'Plugin2'
+[ INFO  ] 24-07-06 17:20:21 - src/PluginsManager.cpp:133 - 2/2 plugins unloaded.
+============================================================
+[ INFO  ] 24-07-06 17:20:54 - src/PluginsManager.cpp:32 - 2/2 plugins loaded and sorted by priority.
+[ INFO  ] 24-07-06 17:20:54 - src/Plugin1.cpp:20 - Initializing 'Plugin1'
+[ INFO  ] 24-07-06 17:20:54 - src/Plugin2.cpp:20 - Initializing 'Plugin2'
+[ INFO  ] 24-07-06 17:20:54 - src/PluginsManager.cpp:93 - 2/2 plugins initialized.
+[ INFO  ] 24-07-06 17:20:54 - src/Main.cpp:27 - Plugin Name: 'Plugin1', Author: ClemtoClem, Version: 1.0.0, Main Version: 1.0.0, Priority: 0
+[ INFO  ] 24-07-06 17:20:54 - src/Main.cpp:27 - Plugin Name: 'Plugin2', Author: ClemtoClem, Version: 1.0.0, Main Version: 1.0.0, Priority: 1
+[ INFO  ] 24-07-06 17:20:54 - src/Plugin1.cpp:52 - Shutting down 'Plugin1'
+[ INFO  ] 24-07-06 17:20:54 - src/Plugin2.cpp:26 - Shutting down 'Plugin2'
+[ INFO  ] 24-07-06 17:20:54 - src/PluginsManager.cpp:108 - 2/2 plugins shut down.
+[ INFO  ] 24-07-06 17:20:54 - src/Plugin1.cpp:16 - Unloading 'Plugin1'
+[ INFO  ] 24-07-06 17:20:54 - src/Plugin2.cpp:16 - Unloading 'Plugin2'
+[ INFO  ] 24-07-06 17:20:54 - src/PluginsManager.cpp:133 - 2/2 plugins unloaded.
+============================================================
+[ INFO  ] 24-07-06 18:09:17 - src/PluginsManager.cpp:32 - 2/2 plugins loaded and sorted by priority.
+[ INFO  ] 24-07-06 18:09:17 - src/Plugin1.cpp:33 - Initializing 'Plugin1'
+[ INFO  ] 24-07-06 18:09:17 - src/Plugin2.cpp:33 - Initializing 'Plugin2'
+[ INFO  ] 24-07-06 18:09:17 - src/PluginsManager.cpp:93 - 2/2 plugins initialized.
+[ INFO  ] 24-07-06 18:09:17 - src/Main.cpp:27 - Plugin Name: 'Plugin1', Author: ClemtoClem, Version: 1.0.0, Main Version: 1.0.0, Priority: 0, Type: Default
+[ INFO  ] 24-07-06 18:09:17 - src/Main.cpp:27 - Plugin Name: 'Plugin2', Author: ClemtoClem, Version: 1.0.0, Main Version: 1.0.0, Priority: 1, Type: Default
+[ INFO  ] 24-07-06 18:09:17 - src/Plugin1.cpp:65 - Shutting down 'Plugin1'
+[ INFO  ] 24-07-06 18:09:17 - src/Plugin2.cpp:39 - Shutting down 'Plugin2'
+[ INFO  ] 24-07-06 18:09:17 - src/PluginsManager.cpp:108 - 2/2 plugins shut down.
+[ INFO  ] 24-07-06 18:09:17 - src/Plugin1.cpp:29 - Unloading 'Plugin1'
+[ INFO  ] 24-07-06 18:09:17 - src/Plugin2.cpp:29 - Unloading 'Plugin2'
+[ INFO  ] 24-07-06 18:09:17 - src/PluginsManager.cpp:133 - 2/2 plugins unloaded.
+============================================================
+[ INFO  ] 24-07-06 18:22:01 - src/PluginsManager.cpp:32 - 2/2 plugins loaded and sorted by priority.
+[ INFO  ] 24-07-06 18:22:01 - src/Plugin2.cpp:37 - Initializing 'Plugin2'
+[ INFO  ] 24-07-06 18:22:01 - src/Plugin1.cpp:37 - Initializing 'Plugin1'
+[ INFO  ] 24-07-06 18:22:01 - src/PluginsManager.cpp:93 - 2/2 plugins initialized.
+[ INFO  ] 24-07-06 18:22:01 - src/Main.cpp:27 - Plugin Name: 'Plugin2', Author: ClemtoClem, Version: 1.0.0, Main Version: 1.0.0, Priority: 0, Type: Default
+[ INFO  ] 24-07-06 18:22:01 - src/Main.cpp:27 - Plugin Name: 'Plugin1', Author: ClemtoClem, Version: 1.0.0, Main Version: 1.0.0, Priority: 0, Type: Admin
+[ INFO  ] 24-07-06 18:22:01 - src/Plugin2.cpp:43 - Shutting down 'Plugin2'
+[ INFO  ] 24-07-06 18:22:01 - src/Plugin1.cpp:69 - Shutting down 'Plugin1'
+[ INFO  ] 24-07-06 18:22:01 - src/PluginsManager.cpp:108 - 2/2 plugins shut down.
+[ INFO  ] 24-07-06 18:22:01 - src/Plugin2.cpp:33 - Unloading 'Plugin2'
+[ INFO  ] 24-07-06 18:22:01 - src/Plugin1.cpp:33 - Unloading 'Plugin1'
+[ INFO  ] 24-07-06 18:22:01 - src/PluginsManager.cpp:133 - 2/2 plugins unloaded.
+============================================================
+[ INFO  ] 24-07-06 18:49:12 - src/PluginsManager.cpp:32 - 2/2 plugins loaded and sorted by priority.
+[ INFO  ] 24-07-06 18:49:12 - src/Plugin2.cpp:37 - Initializing 'Plugin2'
+[ INFO  ] 24-07-06 18:49:12 - src/Plugin1.cpp:37 - Initializing 'Plugin1'
+[ INFO  ] 24-07-06 18:49:12 - src/PluginsManager.cpp:93 - 2/2 plugins initialized.
+[ INFO  ] 24-07-06 18:49:12 - src/Main.cpp:27 - Plugin Name: 'Plugin2', Author: ClemtoClem, Version: 1.0.0, Main Version: 1.0.0, Priority: 0, Type: Default
+Description : This is a plugin for testing purpose
+[ INFO  ] 24-07-06 18:49:12 - src/Main.cpp:27 - Plugin Name: 'Plugin1', Author: ClemtoClem, Version: 1.0.0, Main Version: 1.0.0, Priority: 0, Type: Admin
+Description : This is a plugin for testing purpose
+[ INFO  ] 24-07-06 18:49:12 - src/Plugin2.cpp:43 - Shutting down 'Plugin2'
+[ INFO  ] 24-07-06 18:49:12 - src/Plugin1.cpp:69 - Shutting down 'Plugin1'
+[ INFO  ] 24-07-06 18:49:12 - src/PluginsManager.cpp:108 - 2/2 plugins shut down.
+[ INFO  ] 24-07-06 18:49:12 - src/Plugin2.cpp:33 - Unloading 'Plugin2'
+[ INFO  ] 24-07-06 18:49:12 - src/Plugin1.cpp:33 - Unloading 'Plugin1'
+[ INFO  ] 24-07-06 18:49:12 - src/PluginsManager.cpp:133 - 2/2 plugins unloaded.
+============================================================
+[ INFO  ] 24-07-06 18:49:36 - src/PluginsManager.cpp:32 - 2/2 plugins loaded and sorted by priority.
+[ INFO  ] 24-07-06 18:49:36 - src/Plugin2.cpp:37 - Initializing 'Plugin2'
+[ INFO  ] 24-07-06 18:49:36 - src/Plugin1.cpp:37 - Initializing 'Plugin1'
+[ INFO  ] 24-07-06 18:49:36 - src/PluginsManager.cpp:93 - 2/2 plugins initialized.
+[ INFO  ] 24-07-06 18:49:36 - src/Main.cpp:27 - Plugin Name: 'Plugin2', Author: ClemtoClem, Version: 1.0.0, Main Version: 1.0.0, Priority: 0, Type: Default
+[ INFO  ] 24-07-06 18:49:36 - src/Main.cpp:28 - Description : This is a plugin for testing purpose
+[ INFO  ] 24-07-06 18:49:36 - src/Main.cpp:27 - Plugin Name: 'Plugin1', Author: ClemtoClem, Version: 1.0.0, Main Version: 1.0.0, Priority: 0, Type: Admin
+[ INFO  ] 24-07-06 18:49:36 - src/Main.cpp:28 - Description : This is a plugin for testing purpose
+[ INFO  ] 24-07-06 18:49:36 - src/Plugin2.cpp:43 - Shutting down 'Plugin2'
+[ INFO  ] 24-07-06 18:49:36 - src/Plugin1.cpp:69 - Shutting down 'Plugin1'
+[ INFO  ] 24-07-06 18:49:36 - src/PluginsManager.cpp:108 - 2/2 plugins shut down.
+[ INFO  ] 24-07-06 18:49:36 - src/Plugin2.cpp:33 - Unloading 'Plugin2'
+[ INFO  ] 24-07-06 18:49:36 - src/Plugin1.cpp:33 - Unloading 'Plugin1'
+[ INFO  ] 24-07-06 18:49:36 - src/PluginsManager.cpp:133 - 2/2 plugins unloaded.
+============================================================
+[ INFO  ] 24-07-06 18:58:58 - src/PluginsManager.cpp:32 - 2/2 plugins loaded and sorted by priority.
+[ INFO  ] 24-07-06 18:58:58 - src/Plugin2.cpp:37 - Initializing 'Plugin2'
+[ INFO  ] 24-07-06 18:58:58 - src/Plugin1.cpp:37 - Initializing 'Plugin1'
+[ INFO  ] 24-07-06 18:58:58 - src/PluginsManager.cpp:93 - 2/2 plugins initialized.
+[ INFO  ] 24-07-06 18:58:58 - src/Main.cpp:39 - Plugin Name: 'Plugin2', Author: ClemtoClem, Version: 1.0.0, Main Version: 1.0.0, Priority: 0, Type: Default
+[ INFO  ] 24-07-06 18:58:58 - src/Main.cpp:41 - Description: This is a plugin for testing purpose
+[ INFO  ] 24-07-06 18:58:58 - src/Main.cpp:39 - Plugin Name: 'Plugin1', Author: ClemtoClem, Version: 1.0.0, Main Version: 1.0.0, Priority: 0, Type: Admin
+[ INFO  ] 24-07-06 18:58:58 - src/Main.cpp:41 - Description: This is a plugin for testing purpose
+[ INFO  ] 24-07-06 18:58:58 - src/Plugin2.cpp:43 - Shutting down 'Plugin2'
+[ INFO  ] 24-07-06 18:58:58 - src/Plugin1.cpp:69 - Shutting down 'Plugin1'
+[ INFO  ] 24-07-06 18:58:58 - src/PluginsManager.cpp:108 - 2/2 plugins shut down.
+[ INFO  ] 24-07-06 18:58:58 - src/Plugin2.cpp:33 - Unloading 'Plugin2'
+[ INFO  ] 24-07-06 18:58:58 - src/Plugin1.cpp:33 - Unloading 'Plugin1'
+[ INFO  ] 24-07-06 18:58:58 - src/PluginsManager.cpp:133 - 2/2 plugins unloaded.
+============================================================
+[ INFO  ] 24-07-06 19:00:55 - src/PluginsManager.cpp:32 - 2/2 plugins loaded and sorted by priority.
+[ INFO  ] 24-07-06 19:00:55 - src/Plugin2.cpp:37 - Initializing 'Plugin2'
+[ INFO  ] 24-07-06 19:00:56 - src/Plugin1.cpp:37 - Initializing 'Plugin1'
+[ INFO  ] 24-07-06 19:00:56 - src/PluginsManager.cpp:93 - 2/2 plugins initialized.
+[ INFO  ] 24-07-06 19:00:56 - src/Main.cpp:39 - Plugin Name: 'Plugin2', Author: ClemtoClem, Version: 1.0.0, Main Version: 1.0.0, Priority: 0, Type: Default
+[ INFO  ] 24-07-06 19:00:56 - src/Main.cpp:41 - Description: This is a plugin for testing purpose
+[ INFO  ] 24-07-06 19:00:56 - src/Main.cpp:39 - Plugin Name: 'Plugin1', Author: ClemtoClem, Version: 1.0.0, Main Version: 1.0.0, Priority: 0, Type: Admin
+[ INFO  ] 24-07-06 19:00:56 - src/Main.cpp:41 - Description: This is a plugin for testing purpose
+[ INFO  ] 24-07-06 19:00:56 - src/Plugin2.cpp:43 - Shutting down 'Plugin2'
+[ INFO  ] 24-07-06 19:00:56 - src/Plugin1.cpp:69 - Shutting down 'Plugin1'
+[ INFO  ] 24-07-06 19:00:56 - src/PluginsManager.cpp:108 - 2/2 plugins shut down.
+[ INFO  ] 24-07-06 19:00:56 - src/Plugin2.cpp:33 - Unloading 'Plugin2'
+[ INFO  ] 24-07-06 19:00:56 - src/Plugin1.cpp:33 - Unloading 'Plugin1'
+[ INFO  ] 24-07-06 19:00:56 - src/PluginsManager.cpp:133 - 2/2 plugins unloaded.
+============================================================
