@@ -37,12 +37,12 @@ int main(int argc, char *argv[]) {
 
 		for (auto& plugin : manager) {
 			LOG(Info) << plugin.instance->getInfoToString();
-			//const PluginInterface* pluginInterface = plugin.instance;
 			LOG(Info) << "Description: " << plugin.instance->getDescription();
-			LOG(Info) << "Variables: " << to_string(plugin.instance->getVariables());
-			/*LOG(Info) << "Commands: " << to_string(plugin.instance->getCommands());*/
+			//LOG(Info) << "Variables: " << to_string(plugin.instance->getVariables());
+			//LOG(Info) << "Commands: " << to_string(plugin.instance->getCommands());
 		}
 
+		LOG(Info) << "....";
 
 		manager.shutdownPlugins();
 		manager.unloadPlugins();

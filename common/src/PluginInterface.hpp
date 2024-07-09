@@ -36,10 +36,8 @@ std::string to_string(const Version& version);
 /* ------------------------------------------------------------------------------ */
 
 enum class PluginType {
-	Admin,		///< Plugin administrateur
-	System, 	///< Plugin système
+	System,     ///< Plugin système
 	Core,		///< Plugin pour le service de base
-	User,		///< Plugin utilisateur
 	Module,		///< Plugin module
 	Default 	///< Plugin par défaut
 };

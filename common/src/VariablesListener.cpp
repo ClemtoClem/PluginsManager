@@ -52,11 +52,12 @@ bool VariablesListener::isVariable(const std::string& variable_name) const {
 }
 
 std::vector<std::string> VariablesListener::getVariables() const {
+	LOG(Debug) << "VariablesListener::getVariables()";
 	std::vector<std::string> variable_names;
-	for (const auto& var : _variables) {
-		variable_names.push_back(var.name);
-		LOG(Info) << "Variable: " << var.name << " - " << VariantToString(var.value);
-	}
+	/*for (const auto& var : _variables) {
+		//variable_names.push_back(var.name);
+		LOG(Debug) << "Variable: " << var.name << " - " << VariantToString(var.value);
+	}*/
 	return variable_names;
 }
 

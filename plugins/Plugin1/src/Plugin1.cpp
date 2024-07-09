@@ -22,7 +22,7 @@ const PluginInfo informations = {
 	.version		= {1, 0, 0},
 	.mainVersion	= {1, 0, 0},
 	.priority		= 0,
-	.type			= PluginType::Admin
+	.type			= PluginType::System
 };
 
 class Plugin1 : public PluginInterface {

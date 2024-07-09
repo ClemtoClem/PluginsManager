@@ -8,14 +8,12 @@ std::string to_string(const Version &version) {
 
 std::string to_string(PluginType type) {
     switch (type) {
-		case PluginType::Admin:
-			return "Admin";
 		case PluginType::System:
 			return "System";
 		case PluginType::Core:
 			return "Core";
-		case PluginType::User:
-			return "User";
+		case PluginType::Module:
+			return "Module";
 		default:
 			return "Default";
 	}
