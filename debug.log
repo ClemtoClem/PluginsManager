@@ -242,3 +242,65 @@ Description : This is a plugin for testing purpose
 [ INFO  ] 24-07-09 21:27:32 - src/Plugin1.cpp:33 - Unloading 'Plugin1'
 [ INFO  ] 24-07-09 21:27:32 - src/PluginsManager.cpp:133 - 2/2 plugins unloaded.
 ============================================================
+[ INFO  ] 24-08-18 20:51:24 - src/PluginsManager.cpp:32 - 2/2 plugins loaded and sorted by priority.
+[ INFO  ] 24-08-18 20:51:24 - src/Plugin2.cpp:37 - Initializing 'Plugin2'
+[ INFO  ] 24-08-18 20:51:24 - src/Plugin1.cpp:37 - Initializing 'Plugin1'
+[ INFO  ] 24-08-18 20:51:24 - src/PluginsManager.cpp:93 - 2/2 plugins initialized.
+[ INFO  ] 24-08-18 20:51:24 - src/Main.cpp:39 - Plugin Name: 'Plugin2', Author: ClemtoClem, Version: 1.0.0, Main Version: 1.0.0, Priority: 0, Type: Module
+[ INFO  ] 24-08-18 20:51:24 - src/Main.cpp:40 - Description: This is a plugin for testing purpose
+[ INFO  ] 24-08-18 20:51:24 - src/Main.cpp:39 - Plugin Name: 'Plugin1', Author: ClemtoClem, Version: 1.0.0, Main Version: 1.0.0, Priority: 0, Type: System
+[ INFO  ] 24-08-18 20:51:24 - src/Main.cpp:40 - Description: This is a plugin for testing purpose
+[ INFO  ] 24-08-18 20:51:24 - src/Main.cpp:45 - ....
+[ INFO  ] 24-08-18 20:51:24 - src/Plugin2.cpp:43 - Shutting down 'Plugin2'
+[ INFO  ] 24-08-18 20:51:24 - src/Plugin1.cpp:69 - Shutting down 'Plugin1'
+[ INFO  ] 24-08-18 20:51:24 - src/PluginsManager.cpp:108 - 2/2 plugins shut down.
+[ INFO  ] 24-08-18 20:51:24 - src/Plugin2.cpp:33 - Unloading 'Plugin2'
+[ INFO  ] 24-08-18 20:51:24 - src/Plugin1.cpp:33 - Unloading 'Plugin1'
+[ INFO  ] 24-08-18 20:51:24 - src/PluginsManager.cpp:133 - 2/2 plugins unloaded.
+============================================================
+[ INFO  ] 24-08-18 20:56:03 - src/PluginsManager.cpp:32 - 2/2 plugins loaded and sorted by priority.
+[ INFO  ] 24-08-18 20:56:03 - src/Plugin2.cpp:37 - Initializing 'Plugin2'
+[ INFO  ] 24-08-18 20:56:03 - src/Plugin1.cpp:37 - Initializing 'Plugin1'
+[ INFO  ] 24-08-18 20:56:03 - src/PluginsManager.cpp:93 - 2/2 plugins initialized.
+[ INFO  ] 24-08-18 20:56:03 - src/Main.cpp:39 - Plugin Name: 'Plugin2', Author: ClemtoClem, Version: 1.0.0, Main Version: 1.0.0, Priority: 0, Type: Module
+[ INFO  ] 24-08-18 20:56:03 - src/Main.cpp:40 - Description: This is a plugin for testing purpose
+[ DEBUG ] 24-08-18 20:56:03 - src/VariablesListener.cpp:55 - VariablesListener::getVariables()
+[ DEBUG ] 24-08-18 20:56:03 - src/VariablesListener.cpp:55 - Variables: 
+[ INFO  ] 24-08-18 20:56:03 - src/Main.cpp:42 - Commands: 
+[ INFO  ] 24-08-18 20:56:03 - src/Main.cpp:39 - Plugin Name: 'Plugin1', Author: ClemtoClem, Version: 1.0.0, Main Version: 1.0.0, Priority: 0, Type: System
+[ INFO  ] 24-08-18 20:56:03 - src/Main.cpp:40 - Description: This is a plugin for testing purpose
+[ DEBUG ] 24-08-18 20:56:03 - src/VariablesListener.cpp:55 - VariablesListener::getVariables()
+[ DEBUG ] 24-08-18 20:56:03 - src/VariablesListener.cpp:55 - Variables: 
+[ INFO  ] 24-08-18 20:56:03 - src/Main.cpp:42 - Commands: say
+[ INFO  ] 24-08-18 20:56:03 - src/Main.cpp:45 - ....
+[ INFO  ] 24-08-18 20:56:03 - src/Plugin2.cpp:43 - Shutting down 'Plugin2'
+[ INFO  ] 24-08-18 20:56:03 - src/Plugin1.cpp:69 - Shutting down 'Plugin1'
+[ INFO  ] 24-08-18 20:56:03 - src/PluginsManager.cpp:108 - 2/2 plugins shut down.
+[ INFO  ] 24-08-18 20:56:03 - src/Plugin2.cpp:33 - Unloading 'Plugin2'
+[ INFO  ] 24-08-18 20:56:03 - src/Plugin1.cpp:33 - Unloading 'Plugin1'
+[ INFO  ] 24-08-18 20:56:03 - src/PluginsManager.cpp:133 - 2/2 plugins unloaded.
+============================================================
+[ INFO  ] 24-08-18 20:57:42 - src/PluginsManager.cpp:32 - 2/2 plugins loaded and sorted by priority.
+[ INFO  ] 24-08-18 20:57:42 - src/Plugin2.cpp:37 - Initializing 'Plugin2'
+[ INFO  ] 24-08-18 20:57:42 - src/Plugin1.cpp:37 - Initializing 'Plugin1'
+[ INFO  ] 24-08-18 20:57:42 - src/PluginsManager.cpp:93 - 2/2 plugins initialized.
+[ INFO  ] 24-08-18 20:57:42 - src/Main.cpp:39 - Plugin Name: 'Plugin2', Author: ClemtoClem, Version: 1.0.0, Main Version: 1.0.0, Priority: 0, Type: Module
+[ INFO  ] 24-08-18 20:57:42 - src/Main.cpp:40 - Description: This is a plugin for testing purpose
+[ DEBUG ] 24-08-18 20:57:42 - src/VariablesListener.cpp:55 - VariablesListener::getVariables()
+[ DEBUG ] 24-08-18 20:57:42 - src/VariablesListener.cpp:55 - Variables: 
+[ INFO  ] 24-08-18 20:57:42 - src/Main.cpp:42 - Commands: 
+[ INFO  ] 24-08-18 20:57:42 - src/Main.cpp:39 - Plugin Name: 'Plugin1', Author: ClemtoClem, Version: 1.0.0, Main Version: 1.0.0, Priority: 0, Type: System
+[ INFO  ] 24-08-18 20:57:42 - src/Main.cpp:40 - Description: This is a plugin for testing purpose
+[ DEBUG ] 24-08-18 20:57:42 - src/VariablesListener.cpp:55 - VariablesListener::getVariables()
+[ DEBUG ] 24-08-18 20:57:42 - src/VariablesListener.cpp:59 - Variable: message - Hello World
+[ DEBUG ] 24-08-18 20:57:42 - src/VariablesListener.cpp:59 - Variable: level - Info
+[ DEBUG ] 24-08-18 20:57:42 - src/VariablesListener.cpp:59 - Variables: message, level
+[ INFO  ] 24-08-18 20:57:42 - src/Main.cpp:42 - Commands: say
+[ INFO  ] 24-08-18 20:57:42 - src/Main.cpp:45 - ....
+[ INFO  ] 24-08-18 20:57:42 - src/Plugin2.cpp:43 - Shutting down 'Plugin2'
+[ INFO  ] 24-08-18 20:57:42 - src/Plugin1.cpp:69 - Shutting down 'Plugin1'
+[ INFO  ] 24-08-18 20:57:42 - src/PluginsManager.cpp:108 - 2/2 plugins shut down.
+[ INFO  ] 24-08-18 20:57:42 - src/Plugin2.cpp:33 - Unloading 'Plugin2'
+[ INFO  ] 24-08-18 20:57:42 - src/Plugin1.cpp:33 - Unloading 'Plugin1'
+[ INFO  ] 24-08-18 20:57:42 - src/PluginsManager.cpp:133 - 2/2 plugins unloaded.
+============================================================

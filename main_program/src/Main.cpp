@@ -1,4 +1,5 @@
 #include <iostream>
+#include <sstream>
 #include <filesystem>
 #include <dlfcn.h>
 #include "../../common/src/Logger.hpp"
@@ -9,15 +10,14 @@
 namespace fs = std::filesystem;
 
 std::string to_string(const std::vector<std::string>& vec) {
-	std::string res = "[";
-	for (auto& str : vec) {
-		res += str;
-		res += ", ";
+	std::stringstream ss;
+	for (size_t i = 0; i < vec.size(); ++i) {
+		ss << vec[i];
+		if (i < vec.size() - 1) {
+			ss << ", ";
+		}
 	}
-	res.pop_back();
-	res.pop_back();
-	res += "]";
-	return res;
+	return ss.str();
 }
 
 int main(int argc, char *argv[]) {
@@ -38,8 +38,8 @@ int main(int argc, char *argv[]) {
 		for (auto& plugin : manager) {
 			LOG(Info) << plugin.instance->getInfoToString();
 			LOG(Info) << "Description: " << plugin.instance->getDescription();
-			//LOG(Info) << "Variables: " << to_string(plugin.instance->getVariables());
-			//LOG(Info) << "Commands: " << to_string(plugin.instance->getCommands());
+			LOG(Info) << "Variables: " << to_string(plugin.instance->getVariables());
+			LOG(Info) << "Commands: " << to_string(plugin.instance->getCommands());
 		}
 
 		LOG(Info) << "....";
