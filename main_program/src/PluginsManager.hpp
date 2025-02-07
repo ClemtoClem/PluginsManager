@@ -58,6 +58,9 @@ public:
 	template<typename T>
 	T getValue(const std::string& pluginName, const std::string& varName);
 
+	bool hasPlugin(const std::string& pluginName);
+	Plugin &getPluginByName(const std::string& pluginName);
+
 	// Iterator support to iterate over loaded plugins
 	auto begin() { return _plugins.begin(); }
 	auto end() { return _plugins.end(); }

@@ -48,8 +48,6 @@ public:
 				LOG(Debug) << message;
 			} else if (level == "Info") {
 				LOG(Info) << message;
-			} else if (level == "Success") {
-				LOG(Success) << message;
 			} else if (level == "Warning") {
 				LOG(Warning) << message;
 			} else if (level == "Error") {

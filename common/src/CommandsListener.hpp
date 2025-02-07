@@ -7,7 +7,7 @@
  *
  * @file CommendsListener.hpp
  * @author ClemtoClem
- * @date 06/07/2024                                                                                            
+ * @date 06/07/2024
  */
 
 #ifndef COMMANDS_LISTENER_HPP
@@ -105,7 +105,7 @@ public:
 	bool isCommand(const std::string& commandOrAlias) const;
 
 	/**
-	 * @brief Fonction pour lister toutes les commandes disponibles, utilse pour les diagnostics ou les interfaces utilisateur
+	 * @brief Fonction pour lister toutes les commandes disponibles, utilsé pour les diagnostics ou les interfaces utilisateur
 	 * @return Liste des commandes
 	 */
 	std::vector<std::string> getCommands() const;

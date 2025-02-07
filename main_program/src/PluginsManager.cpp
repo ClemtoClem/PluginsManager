@@ -153,6 +153,24 @@ VariantType PluginsManager::getVariable(const std::string& pluginName, const std
 	return VariantType(); // Return a default value (empty variant) if plugin not found
 }
 
+bool PluginsManager::hasPlugin(const std::string &pluginName) {
+	for (auto& plugin : _plugins) {
+		if (plugin.info.name == pluginName) {
+			return true;
+		}
+	}
+	return false;
+}
+
+Plugin &PluginsManager::getPluginByName(const std::string &pluginName) {
+    for (auto& plugin : _plugins) {
+		if (plugin.info.name == pluginName) {
+			return plugin;
+		}
+	}
+	throw std::runtime_error("Plugin '" + pluginName + "' not found");
+}
+
 template<typename T>
 T PluginsManager::getValue(const std::string& pluginName, const std::string& varName) {
 	VariantType value = getVariable(pluginName, varName);

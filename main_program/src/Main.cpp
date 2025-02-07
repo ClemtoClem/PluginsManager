@@ -9,7 +9,8 @@
 
 namespace fs = std::filesystem;
 
-std::string to_string(const std::vector<std::string>& vec) {
+template <typename T>
+std::string to_string(const std::vector<T>& vec) {
 	std::stringstream ss;
 	for (size_t i = 0; i < vec.size(); ++i) {
 		ss << vec[i];
@@ -22,8 +23,6 @@ std::string to_string(const std::vector<std::string>& vec) {
 
 int main(int argc, char *argv[]) {
 	Logger::createInstance();
-	Logger::getInstance().enableWriteInTerminal();
-
 	ResourcesManager::createInstance();
 
 	try {
@@ -43,6 +42,12 @@ int main(int argc, char *argv[]) {
 		}
 
 		LOG(Info) << "....";
+		if (manager.hasPlugin("Plugin1")) {
+			auto& plugin = manager.getPluginByName("Plugin1");
+			plugin.instance->setVariable("message", "Hello from Plugin1!");
+			plugin.instance->setVariable("level", "Info");
+			plugin.instance->callCommand("say", {});
+		}
 
 		manager.shutdownPlugins();
 		manager.unloadPlugins();
